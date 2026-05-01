@@ -26,7 +26,7 @@ Machine Learning Research Engineer at [Mindtrace](https://www.mindtrace.ai/), Ma
 *Contributor · Core Package & Agents*
 Designed the monorepo architecture and `core` package (config injection, structured logging, observable state); building the `agents` package for distributed weld inspection — coordinating tasks, maintaining memory across sessions, and surfacing anomalies to operators.
 
-**[ML Deployment Infrastructure](/projects/#ml-deployment-templates)**
+**[ML Deployment Infrastructure](/pankhuri/projects/#ml-deployment-templates)**
 *Production MLOps · IQVIA*
 Reusable Docker + Kubernetes + Helm templates for packaging and serving ML models as microservices — persistent volume mounting, FastAPI inference scaffolding, and CI/CD hooks (GitLab CI, Jenkins). Distilled from production deployment work across AWS, GCP, and Azure.
 
@@ -38,7 +38,7 @@ Federated learning framework enabling chatbots to learn from user interactions w
 *SAIA 2025 · IEEE*
 Comparative study of federated vs. centralised training dynamics — analysing convergence, adaptability, and where the privacy-performance trade-off bites.
 
-→ [All projects](/projects/)
+→ [All projects](/pankhuri/projects/)
 
 ---
 
@@ -52,4 +52,4 @@ Comparative study of federated vs. centralised training dynamics — analysing c
 - Federated Learning & Privacy-Preserving ML
 - Agent Safety & Alignment
 
-→ [Full research overview](/research/)
+→ [Full research overview](/pankhuri/research/)

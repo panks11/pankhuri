@@ -29,16 +29,9 @@ author:
   avatar: "profile.png"
   bio: "Machine Learning Research Engineer"
   location: "Manchester, UK"
-  links:
-    - label: "kulshrestha.pankhuri@gmail.com"
-      icon: "fas fa-envelope"
-      url: "mailto:kulshrestha.pankhuri@gmail.com"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/pankhuri-kulshrestha-20a65917"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/pankhuri-kulshrestha"
+  email: "kulshrestha.pankhuri@gmail.com"
+  linkedin: "pankhuri-kulshrestha-20a65917"
+  github: "pankhuri-kulshrestha"
 
 # Defaults
 defaults:
