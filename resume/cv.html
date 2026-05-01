@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pankhuri Kulshrestha — CV</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 10.5pt;
+    color: #222;
+    background: #fff;
+    line-height: 1.5;
+  }
+
+  .page {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 40px 50px;
+  }
+
+  /* Header */
+  .header { text-align: center; margin-bottom: 22px; border-bottom: 2px solid #2471a3; padding-bottom: 14px; }
+  .header h1 { font-size: 22pt; letter-spacing: 2px; color: #111; font-weight: bold; }
+  .header .title { font-size: 10.5pt; color: #555; margin-top: 4px; font-style: italic; }
+  .header .contact { margin-top: 8px; font-size: 9.5pt; color: #444; font-family: 'Arial', sans-serif; }
+  .header .contact a { color: #2471a3; text-decoration: none; }
+  .header .contact span { margin: 0 6px; color: #aaa; }
+
+  /* Section */
+  .section { margin-bottom: 18px; }
+  .section-title {
+    font-size: 10pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #2471a3;
+    border-bottom: 1px solid #d0e0f0;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+  }
+
+  /* Experience entries */
+  .entry { margin-bottom: 12px; page-break-inside: avoid; break-inside: avoid; }
+  .entry-header { display: flex; justify-content: space-between; align-items: baseline; }
+  .entry-title { font-weight: bold; font-size: 10.5pt; }
+  .entry-date { font-size: 9.5pt; color: #555; font-family: 'Arial', sans-serif; white-space: nowrap; }
+  .entry-subtitle { font-style: italic; color: #555; font-size: 9.5pt; margin-bottom: 4px; font-family: 'Arial', sans-serif; }
+  .entry-body { font-size: 9.5pt; }
+
+  ul { padding-left: 16px; margin-top: 4px; }
+  ul li { margin-bottom: 3px; font-size: 9.5pt; }
+
+  /* Skills */
+  .skills-grid { display: grid; grid-template-columns: 140px 1fr; gap: 4px 10px; font-size: 9.5pt; }
+  .skills-label { font-weight: bold; color: #333; font-family: 'Arial', sans-serif; }
+  .skills-value { color: #444; }
+
+  /* Publications */
+  .pub { margin-bottom: 8px; font-size: 9.5pt; }
+  .pub-title { font-style: italic; }
+  .pub-venue { color: #2471a3; font-family: 'Arial', sans-serif; font-size: 9pt; }
+  .pub-status { color: #888; font-size: 8.5pt; font-family: 'Arial', sans-serif; }
+
+  /* Achievements */
+  .ach-list { list-style: none; padding: 0; }
+  .ach-list li { font-size: 9.5pt; margin-bottom: 3px; display: flex; gap: 10px; }
+  .ach-date { color: #888; font-family: 'Arial', sans-serif; font-size: 9pt; white-space: nowrap; min-width: 70px; }
+
+  @media print {
+    body { font-size: 10pt; }
+    .page { padding: 20px 30px; }
+    a { color: #2471a3; text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Header -->
+  <div class="header">
+    <h1>PANKHURI KULSHRESTHA</h1>
+    <div class="title">Machine Learning Research Engineer</div>
+    <div class="contact">
+      Manchester, UK
+      <span>|</span>
+      <a href="mailto:kulshrestha.pankhuri@gmail.com">kulshrestha.pankhuri@gmail.com</a>
+      <span>|</span>
+      <a href="https://www.linkedin.com/in/pankhuri-kulshrestha-20a65917">LinkedIn</a>
+      <span>|</span>
+      <a href="https://github.com/pankhuri-kulshrestha">GitHub</a>
+    </div>
+  </div>
+
+  <!-- Profile -->
+  <div class="section">
+    <div class="section-title">Profile</div>
+    <p style="font-size:9.5pt;">Machine Learning Research Engineer with 8+ years of experience building AI systems for industrial inspection, federated learning, and computer vision. Currently at Mindtrace (Manchester), building distributed monitoring agents for weld inspection workflows and leading 3D deep learning research. Published at IEEE and Springer; work under review at IEEE Transactions on Neural Networks and Learning Systems.</p>
+  </div>
+
+  <!-- Experience -->
+  <div class="section">
+    <div class="section-title">Experience</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Mindtrace — Machine Learning Research Engineer</span>
+        <span class="entry-date">Jan 2023 – Present</span>
+      </div>
+      <div class="entry-subtitle">Manchester, UK</div>
+      <ul>
+        <li>Designing the <em>agents</em> package for the Mindtrace open-source framework — autonomous monitoring agents for distributed weld inspection workflows, coordinating tasks and maintaining memory across sessions.</li>
+        <li>Designed monorepo architecture and built the <em>core</em> package: config injection, structured logging, and observable state primitives.</li>
+        <li>Self-supervised learning with DINO architecture features on large-scale unlabelled datasets; parameter-efficient fine-tuning via LoRA achieving <strong>95% accuracy</strong> on industrial inspection tasks.</li>
+        <li>3D deep learning for point cloud segmentation: trained and benchmarked PointNet, PointNet++, and SPVCNN on LiDAR-captured infrastructure data.</li>
+        <li>Built LiDAR preprocessing pipelines (PDAL, GeoPandas, Shapely) for coordinate transformations, ground filtering, and tiling at scale.</li>
+        <li>Deployed models on AWS, GCP, and Azure; MLOps infrastructure with Docker, MLFlow, and FastAPI microservices (92% detection accuracy).</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Edcast — Computer Vision Engineer</span>
+        <span class="entry-date">Jun 2021 – Dec 2021</span>
+      </div>
+      <div class="entry-subtitle">India</div>
+      <ul>
+        <li>Deployed YOLOv3 on the Kneron KL520 USB AI dongle — model quantisation, ONNX export, and live video inference pipeline.</li>
+        <li>OCR pipeline using Google Vision API and Tesseract; object identification with FLANN/SIFT.</li>
+        <li>Serverless architecture on AWS (Lambda, API Gateway, S3).</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">IQVIA — Software Engineer</span>
+        <span class="entry-date">Sep 2019 – May 2021</span>
+      </div>
+      <div class="entry-subtitle">India</div>
+      <ul>
+        <li>Built a computer vision system for classifying life science documents — text analysis, spatial layout detection, and image analysis using Faster RCNN and Mask RCNN.</li>
+        <li>Developed ML deployment infrastructure: Docker + Kubernetes + Helm templates with FastAPI microservices and GitLab CI/CD pipelines.</li>
+        <li>Classification tracked using F1, Precision, and Recall.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">BNP Paribas — Software Engineer</span>
+        <span class="entry-date">Sep 2017 – Sep 2019</span>
+      </div>
+      <div class="entry-subtitle">India</div>
+      <ul>
+        <li>Contributed to CI/CD pipelines for banking applications using Jenkins and TeamCity, with automated post-deployment testing.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Education -->
+  <div class="section">
+    <div class="section-title">Education</div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">MSc (Hons) Artificial Intelligence — University of Essex, UK</span>
+        <span class="entry-date">Jan 2022 – Jan 2023</span>
+      </div>
+      <div class="entry-body" style="font-size:9.5pt; margin-top:2px;">Dissertation: Federated self-learning chatbot with privacy-preserving dialogue adaptation. Research spans federated learning, NLP, computer vision, and medical image segmentation (HuBMAP Kaggle, top 14%).</div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">BEng Electronics &amp; Communications — RGPV, India</span>
+        <span class="entry-date">May 2007 – May 2011</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Publications -->
+  <div class="section">
+    <div class="section-title">Publications</div>
+
+    <div class="pub">
+      <span class="pub-title">MP-CFL: Matrix-Profile Clustered Federated Learning for Communication-Efficient Training under Data Heterogeneity</span><br>
+      <span class="pub-venue">IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</span>
+      <span class="pub-status"> · Under Review, 2025</span>
+    </div>
+
+    <div class="pub">
+      <span class="pub-title">Evaluating Dialogue Adaptability: A Comparative Study of Self-Feeding Mechanisms in Federated and Centralized Chatbot Architectures</span><br>
+      <span class="pub-venue">Workshop on Secure AI Applications (SAIA 2025) · IEEE</span>
+    </div>
+
+    <div class="pub">
+      <span class="pub-title">Privacy-Preserving Self-Learning Chatbot with Federated Intelligence</span><br>
+      <span class="pub-venue">International Conference on IoT, Electronics and Mechatronics (IEMTRONICS 2025) · Springer</span>
+    </div>
+  </div>
+
+  <!-- Skills -->
+  <div class="section">
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+      <span class="skills-label">Languages</span>
+      <span class="skills-value">Python, C++, SQL</span>
+
+      <span class="skills-label">ML Frameworks</span>
+      <span class="skills-value">PyTorch, TensorFlow, ONNX, Scikit-learn</span>
+
+      <span class="skills-label">Computer Vision</span>
+      <span class="skills-value">DINO architectures, YOLO, DeepLab, SAM 2, LoRA, PointNet, PointNet++, SPVCNN</span>
+
+      <span class="skills-label">Federated Learning</span>
+      <span class="skills-value">FedAvg, FedProx, TensorFlow Lite (on-device), MQTT, RabbitMQ</span>
+
+      <span class="skills-label">Cloud</span>
+      <span class="skills-value">AWS, Google Cloud Platform (GCP), Microsoft Azure</span>
+
+      <span class="skills-label">MLOps</span>
+      <span class="skills-value">Docker, Kubernetes, Helm, MLFlow, FastAPI, GitLab CI, Jenkins</span>
+
+      <span class="skills-label">Data / 3D</span>
+      <span class="skills-value">PDAL, GeoPandas, Shapely, NumPy, Pandas</span>
+    </div>
+  </div>
+
+  <!-- Achievements -->
+  <div class="section">
+    <div class="section-title">Achievements &amp; Certifications</div>
+    <ul class="ach-list">
+      <li><span class="ach-date">Oct 2022</span><span>Google Developer Badge — Machine Learning Bootcamp</span></li>
+      <li><span class="ach-date">Oct 2022</span><span>TensorFlow Developer Certification</span></li>
+      <li><span class="ach-date">Sep 2022</span><span>HuBMAP Organ Segmentation Kaggle Competition — Top 14% globally</span></li>
+      <li><span class="ach-date">Aug 2022</span><span>Coursera Deep Learning Specialization</span></li>
+      <li><span class="ach-date">2018–2019</span><span>Post Graduate Program in Artificial Intelligence and Machine Learning</span></li>
+    </ul>
+  </div>
+
+  <!-- Open Source -->
+  <div class="section" style="page-break-before: always; break-before: page; page-break-inside: avoid; break-inside: avoid;">
+    <div class="section-title">Open-Source Contributions</div>
+    <div style="font-size:9.5pt; display:flex; flex-direction:column; gap:5px;">
+      <div>
+        <strong>Mindtrace</strong> — Open-Source AI Infrastructure Framework (<a href="https://github.com/Mindtrace/mindtrace">github.com/Mindtrace/mindtrace</a>)<br>
+        Contributing to modular micro-services for ML orchestration, observability, and agent-based automation.
+      </div>
+      <div>
+        <strong>MP-CFL</strong> — Matrix-Profile Clustered Federated Learning (<a href="https://github.com/panks11/mp-cfl">github.com/panks11/mp-cfl</a>)<br>
+        Implementation of the MP-CFL framework — event-driven clustered federated learning with matrix-profile change detection.
+      </div>
+      <div>
+        <strong>Federated Chatbot</strong> — Privacy-Preserving Self-Learning Chatbot (<a href="https://github.com/panks11/federated-chatbot">github.com/panks11/federated-chatbot</a>)<br>
+        Companion code for the IEMTRONICS 2025 and SAIA 2025 publications on federated dialogue learning.
+      </div>
+      <div>
+        <strong>Audio File Server</strong> (<a href="https://github.com/panks11/audio_file_server">github.com/panks11/audio_file_server</a>)<br>
+        Lightweight server for managing and serving audio files.
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

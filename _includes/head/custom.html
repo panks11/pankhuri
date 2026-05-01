@@ -1,0 +1,189 @@
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Source+Serif+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+  /* Hide theme toggle */
+  #theme-toggle { display: none !important; }
+
+  /* ========================== */
+  /* CLEAN ACADEMIC THEME       */
+  /* ========================== */
+
+  /* --- Global overrides --- */
+  :root {
+    --global-bg-color: #ffffff;
+    --global-text-color: #333333;
+    --global-text-color-light: #7a8288;
+    --global-link-color: #2471a3;
+    --global-link-color-hover: #1a5276;
+    --global-masthead-link-color: #494e52;
+    --global-masthead-link-color-hover: #2471a3;
+    --global-border-color: #e8e8e8;
+    --global-code-background-color: #f6f8fa;
+    --global-code-text-color: #333333;
+  }
+
+  /* --- Typography --- */
+  body {
+    font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+    color: #333 !important;
+    line-height: 1.7;
+  }
+
+  h1, h2, h3, h4, .page__title, .archive__item-title {
+    font-family: 'Source Serif Pro', Georgia, "Times New Roman", serif !important;
+    color: #222 !important;
+  }
+
+  /* --- Masthead / Navigation (clean, white, minimal) --- */
+  .masthead {
+    border-bottom: 1px solid #e8e8e8 !important;
+  }
+
+  .greedy-nav .visible-links a::before {
+    background: #2471a3 !important;
+  }
+
+  .greedy-nav a {
+    font-size: 0.9em !important;
+  }
+
+  /* --- Page Title --- */
+  .page__title,
+  h1.page__title {
+    font-weight: 700 !important;
+    font-size: 1.8em !important;
+    color: #222 !important;
+    -webkit-text-fill-color: #222 !important;
+    background: none !important;
+  }
+
+  /* --- Author Sidebar --- */
+  .author__avatar img {
+    border-radius: 50% !important;
+    border: 2px solid #e8e8e8 !important;
+    box-shadow: none !important;
+  }
+
+  .author__name {
+    font-family: 'Source Serif Pro', Georgia, serif !important;
+    font-weight: 700 !important;
+    font-size: 1.1em !important;
+    color: #222 !important;
+  }
+
+  .author__bio {
+    font-size: 0.9em;
+    color: #555 !important;
+  }
+
+  .author__urls-wrapper .btn--inverse {
+    border-color: #ddd !important;
+    color: #555 !important;
+    font-size: 0.85em;
+  }
+
+  .author__urls .social-icons .svg-inline--fa,
+  .author__urls .social-icons i {
+    color: #555;
+  }
+
+  .author__urls a:hover {
+    color: #2471a3 !important;
+  }
+
+  /* --- Links --- */
+  .page__content a {
+    color: #2471a3 !important;
+    text-decoration: none !important;
+  }
+
+  .page__content a:hover {
+    text-decoration: underline !important;
+    color: #1a5276 !important;
+  }
+
+  /* --- Headings in Content --- */
+  .page__content h2 {
+    font-size: 1.4em;
+    color: #222;
+    border-bottom: 2px solid #2471a3;
+    padding-bottom: 0.3em;
+    margin-top: 1.8em;
+  }
+
+  .page__content h3 {
+    font-size: 1.15em;
+    color: #333;
+    margin-top: 1.3em;
+  }
+
+  /* No decorative ::before bars */
+  .page__content h3::before {
+    display: none;
+  }
+
+  /* --- Blockquotes (subtle) --- */
+  .page__content blockquote {
+    border-left: 3px solid #2471a3 !important;
+    background: #f9fafb;
+    padding: 0.8em 1.2em;
+    border-radius: 0;
+    margin: 1.2em 0;
+    font-style: italic;
+    color: #555;
+  }
+
+  /* --- Inline Code --- */
+  .page__content code {
+    background: #f6f8fa !important;
+    color: #333 !important;
+    padding: 2px 6px !important;
+    border-radius: 3px !important;
+    font-size: 0.88em !important;
+    border: 1px solid #e8e8e8 !important;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace !important;
+  }
+
+  /* --- Footer (light, minimal) --- */
+  .page__footer {
+    border-top: 1px solid #e8e8e8 !important;
+    background: #fafafa !important;
+    color: #999 !important;
+    font-size: 0.85em;
+  }
+
+  .page__footer a {
+    color: #2471a3 !important;
+  }
+
+  /* --- Misc --- */
+  html { scroll-behavior: smooth; }
+
+  ::selection {
+    background: rgba(36, 113, 163, 0.2);
+  }
+
+  /* --- Primary buttons --- */
+  .page__content .btn--primary {
+    background-color: #2471a3 !important;
+    color: #ffffff !important;
+    border-color: #2471a3 !important;
+    text-decoration: none !important;
+  }
+
+  .page__content .btn--primary:hover {
+    background-color: #1a5276 !important;
+    border-color: #1a5276 !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+  }
+
+  /* --- News/updates list styling --- */
+  .page__content ul {
+    line-height: 1.8;
+  }
+
+  .page__content strong {
+    color: #222;
+  }
+</style>

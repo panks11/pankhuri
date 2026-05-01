@@ -1,0 +1,81 @@
+# Site Settings
+locale: "en-US"
+title: "Pankhuri Kulshrestha"
+title_separator: " | "
+name: "Pankhuri Kulshrestha"
+description: "Machine Learning Research Engineer"
+url: "https://pankhuri-kulshrestha.github.io"
+baseurl: ""
+github_username: pankhuri-kulshrestha
+
+# Theme skin (disable theme toggle by using only one skin)
+skin: "default"
+
+# Build settings
+markdown: kramdown
+remote_theme: academicpages/academicpages.github.io
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+include:
+  - _pages
+
+# Site Author
+author:
+  name: "Pankhuri Kulshrestha"
+  avatar: "profile.png"
+  bio: "Machine Learning Research Engineer"
+  location: "Manchester, UK"
+  links:
+    - label: "kulshrestha.pankhuri@gmail.com"
+      icon: "fas fa-envelope"
+      url: "mailto:kulshrestha.pankhuri@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/pankhuri-kulshrestha-20a65917"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/pankhuri-kulshrestha"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: false
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Sidebar settings
+sidebar:
+  nav: "main"
+
+# Navigation
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Experience"
+    url: /experience/
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "Projects"
+    url: /projects/
+  - title: "CV"
+    url: /cv/
