@@ -5,7 +5,7 @@ permalink: /about/
 author_profile: true
 ---
 
-I'm an optimist who believes that good choices, made with intention and followed through with effort, lead somewhere worthwhile. My path has taken me through software engineering, finance, life sciences, and AI research — each a deliberate step, each teaching me something the previous one couldn't. I love learning, and I especially love the moment when a research paper stops being theory and starts being something that solves a real problem.
+I'm an optimist who believes that good choices, made with intention and followed through with effort, lead somewhere worthwhile. My path has taken me through software engineering, finance, life sciences, and AI and ML research — each a deliberate step, each teaching me something the previous one couldn't. I love learning, and I especially love the moment when a research paper stops being theory and starts being something that solves a real problem.
 
 I'm currently a Machine Learning Research Engineer at [Mindtrace](https://www.mindtrace.ai/) in Manchester, building agent-based AI systems for industrial asset inspection.
 
