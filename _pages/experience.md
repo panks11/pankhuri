@@ -68,7 +68,7 @@ author_profile: true
 **University of Essex** · United Kingdom · *Jan 2022 – Jan 2023*
 
 ### Bachelor of Engineering in Electronics & Communication Engineering
-**Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV)** · India · *May 2007 – May 2011*
+**Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV)** · India
 
 ---
 
