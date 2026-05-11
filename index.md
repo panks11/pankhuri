@@ -38,6 +38,10 @@ Federated learning framework enabling chatbots to learn from user interactions w
 *SAIA 2025 · IEEE*
 Comparative study of federated vs. centralised training dynamics — analysing convergence, adaptability, and where the privacy-performance trade-off bites.
 
+**[Autonomous Robot Navigation with ROS2](https://github.com/panks11/CE801)**
+*MSc Coursework · University of Essex*
+ROS2-based autonomous navigation system using LIDAR sensing, a 5-stage state machine, and dual control strategies — PID for wall-following and fuzzy logic for gap navigation — benchmarked through a maze environment.
+
 → [All projects](/pankhuri/projects/)
 
 ---
